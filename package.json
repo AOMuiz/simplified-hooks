@@ -2,18 +2,31 @@
   "name": "simplified-hooks",
   "version": "1.0.0",
   "description": "an easy-to-use react hooks collection library to help develpers productivity",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "@storybook/addon-essentials": "7.0.2",
+    "@storybook/addon-interactions": "7.0.2",
+    "@storybook/addon-links": "7.0.2",
+    "@storybook/blocks": "7.0.2",
+    "@storybook/react": "7.0.2",
+    "@storybook/react-webpack5": "7.0.2",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "prop-types": "15.8.1",
     "esbuild": "^0.12.9",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "storybook": "7.0.2"
   },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "build": "esbuild ./src/index.js --bundle --format=esm --outdir=dist"
+    "build": "node esbuild.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
