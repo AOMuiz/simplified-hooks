@@ -5,6 +5,13 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
+  "keywords": [
+    "hooks",
+    "react",
+    "simplified",
+    "custom hooks"
+  ],
+  "author": "Abdulwasiu Muiz",
   "devDependencies": {
     "@babel/preset-env": "^7.21.4",
     "@storybook/addon-essentials": "7.0.2",
