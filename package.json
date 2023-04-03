@@ -12,7 +12,8 @@
     "hooks",
     "react",
     "simplified",
-    "custom hooks"
+    "custom hooks",
+    "react hooks"
   ],
   "author": "Abdulwasiu Muiz",
   "devDependencies": {
