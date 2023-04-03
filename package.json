@@ -1,0 +1,16 @@
+{
+  "name": "simplified-hooks",
+  "version": "1.0.0",
+  "description": "an easy-to-use react hooks collection library to help develpers productivity",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.12.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
