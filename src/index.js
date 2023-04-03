@@ -1,3 +1,11 @@
 export { useScroller } from "./useScroller";
 export { useBoolean } from "./useBoolean";
 export { useMap } from "./useMap";
+export { useWhyDidYouUpdate } from "./useWhyDidYouUpdate";
+export { useArray } from "./useArray";
+export { useDebounce } from "./useDebounce";
+export { useTimeout } from "./useTimeout";
+export { usePrevious } from "./usePrevious";
+export { useToggle } from "./useToggle";
+export { useUpdateEffect } from "./useUpdateEffect";
+export { useEventListener } from "./useEventListener";
